@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <title>Trabajo Número 4</title>
+    
+</head>
+<body>
+
+    <header class="head">
+        <div class="logo" >
+            <a href="homeloged.html"><img class="img-logoutProfile" src="./img/logo.png" alt=""></a>
+    </div>  
+       
+    </header>
+
+    <nav class="nav">
+        <a href="homeloged.html" class="button-nav" class="navitem" >
+            HOME
+        </a>
+        <a href="campañas.html" class="button-nav" class="navitem" >
+            CAMPAÑAS
+        </a>
+       
+        <a href="#" class="button-nav1">
+            NICOLAS
+        </a>
+       
+        <a href="home.html" class="tooltip"><img src="img/logout.png" alt=""></a>
+        
+        
+    </nav>
+
+
+    <div class="contact_form">
+
+        <div class="formulario"> 
+            <div class="caja" style="display: flex; justify-content: center;position: relative;left: -15px;">
+                <h1>CAMPAÑA NUEVA</h1>
+            </div> 
+          
+          <div style="display: flex; justify-content: center; position: relative;left: -15px;">
+            <h3>Ten cuidado con los cambios que realices</h3>
+            
+          </div>
+            
+    
+    
+              <div action="submeter-formulario.php">       
+    
+                
+                    <p>
+                      <label for="nombre" class="colocar_nombre">Titulo de la campaña
+                        <span class="obligatorio">*</span>
+                      </label>
+                        <input type="text" class="nomb" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe el titulo de la campaña">
+                    </p>
+                  
+                    <p>
+                      <label for="mensaje" class="colocar_mensaje">Cuerpo de la campaña
+                        <span class="obligatorio">*</span>
+                      </label>                     
+                        <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Informacion de la campaña..."></textarea> 
+                    </p>
+                    <div class="aimg">
+                        <input class="agregarimagen" type="file" placeholder="Agregar imagen">
+                    </div>
+                    
+                    <a href="homeloged.html"><button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button></a>
+                    
+                                    
+                    <p class="aviso">
+                      <span class="obligatorio"> * </span>los campos son obligatorios.
+                    </p>          
+                
+              </div>
+        </div>  
+      </div>
+    
+
+
+        
+    </body>
